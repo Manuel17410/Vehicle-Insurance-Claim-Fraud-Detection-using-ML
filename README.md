@@ -14,6 +14,12 @@ This project focuses on developing a machine learning model to detect fraudulent
 
 Probably the clearer discovery of the EDA was that people commiting fraud are usually sneaky or try to take advantage of the situation to do it, since most fraud cases are commited when there are no witness present, when there is no police report filed, and 75% of those that change their adresse in their last 6 months commited fraud, as if they were trying to hide from something.
 
+![Example Image](images/Screenshot 2024-10-16 210718.png)
+
+![Example Image](images/Screenshot 2024-10-16 210805.png)
+
+![Example Image](images/Screenshot 2024-10-16 210825.png)
+
 ## Data Cleaning
 
 The data cleaning was quite extensive, since most of the variables that could easily be numerical, and in that way add more value to our analysis, were categorical. Also, some unnecesary variables were eliminated of the dataset.
@@ -50,5 +56,5 @@ The categorical values that could not be converted to numeric because of their n
 
 The Random Forest Classifier with GridSearch and Oversampling model is very effective, achieving high accuracy, precision, recall, and F1 scores. The choice of hyperparameters suggests a model well-tuned to the data, capturing its complexity while still generalizing well.
 
-
+![Example Image](images/Screenshot 2024-10-16 212612.png)
 
